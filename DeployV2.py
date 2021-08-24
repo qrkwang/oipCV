@@ -166,10 +166,7 @@ def captureImage():
               (labels.get(c.id, c.id), c.score, elapsed_ms))
 
 
-print("before function call")
 
-# captureImage()
-continuousCV()
-print("after function call")
-# Clean up
-cv2.destroyAllWindows()
+captureImage()
+# continuousCV()
+
